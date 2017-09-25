@@ -1,0 +1,181 @@
+Valid name	Toxicity detected	Toxin	Syndrome	decimalLatitude	decimalLongitude	Waterbody	Country	State/province
+Gymnodinium catenatum	yes	STX (Saxitoxins)	PSP	-43.02	147.04	River Huon	Australia	Tasmania
+Gymnodinium catenatum	yes	STX (Saxitoxins)	PSP	-43.02	147.04	River Huon	Australia	Tasmania
+Gymnodinium catenatum	no			-38.54	143.98	Port Phillip Bay	Australia	Victoria
+Gymnodinium catenatum	no			-34.72	135.86	Port Licoln	Australia	South Australia
+Gymnodinium catenatum	no			-33.55	151.23	Hawkesbury River	Australia	NSW
+Gymnodinium catenatum	yes	STX (Saxitoxins)		-34.72	172.92	Ninety Mile Beach	New Zealand	North Island
+Karenia mikimotoi	no			-34.72	135.86	Coffin Bay	Australia	South Australia
+Karenia mikimotoi	ND			-34.76	138.50	Port River	Australia	South Australia
+Karenia mikimotoi	ND			-38.07	145.07	Port Phillip Bay	Australia	Victoria
+Karenia mikimotoi	yes	PbTx3 eq (Brevetoxins)		-37.50	176.73	Bay of Plenty	New Zealand	North Island
+Karenia papilionacea	no			-42.34	147.96	Little Swanport	Australia	Tasmania
+Karenia papilionacea	ND			-41.05	148.31	Ansons Bay	Australia	Tasmania
+Karenia papilionacea	ND			-34.72	135.86	Port Lincoln	Australia	South Australia
+Karenia papilionacea	no			-39.33	177.38	Hawke's Bay 	New Zealand	North Island
+Karenia umbella	no			-42.56	147.92	Spring Bay	Australia	Tasmania
+Karenia umbella	no			-31.99	115.84	Swan River	Australia	Western Autralia
+Karenia umbella	no			-43.04	147.86	Taranna	Australia	Tasmania
+Karenia umbella	no			-43.11	147.69	Nubeena	Australia	Tasmania
+Karenia umbella	no			-41.05	173.28	Tasman Bay	New Zealand	North Island
+Karenia selliformis	no			-43.11	147.69	Moreton Bay	Australia	Tasmania
+Karenia selliformis	yes	GYM eq (CYCLIC IMINES - Gymnodimines)		-46.59	168.05	Foveaux strait	New Zealand	South Island
+Karenia brevisulcata	yes			-41.28	174.79	Wellington Harbour	New Zealand	North Island
+Takayama	no			-33.30	151.49	LakeTuggerah 	Australia	NSW
+Takayama	no			-43.19	147.84	Port Arthur	Australia	Tasmania
+Takayama	no			-34.72	135.86	Port Lincoln	Australia	South Australia
+Takayama	no			-42.89	147.34	River Derwent	Australia	Tasmania
+Takayama	no			-41.34	174.25	East Bay	New Zealand	North Island
+Karlodinium veneficum	no			-34.43	150.90	Lake Illawarra	Australia	NSW
+Karlodinium veneficum	yes			-31.99	115.84	Swan River	Australia	Western Autralia
+Karlodinium veneficum	no			-42.89	147.34	River Derwent	Australia	Tasmania
+Karlodinium veneficum	no			-33.85	151.22	Sydney Harbour	Australia	NSW
+Karlodinium veneficum	no			-36.85	175.16	Ponui Island	New Zealand	North Island
+Karlodinium	no			-41.20	148.28	Grants Lagoon	Australia	Tasmania
+Karlodinium	no			-38.07	145.07	Port Phillip Bay	Australia	Victoria
+Karlodinium	no			-33.30	151.49	Tuggerah Lakes	Australia	NSW
+Lingulodinium polyedrum	no			-33.30	151.49	Tuggerah Lakes	Australia	NSW
+Lingulodinium polyedrum	ND			-41.44	174.26	Marlborough Sounds	New Zealand	North Island
+Lingulodinium polyedrum	no			-43.11	147.69	Moreton Bay	Australia	Tasmania
+Gonyaulax spinifera	no			-33.85	151.22	Sydney Harbour	Australia	NSW
+Gonyaulax spinifera	yes	YTX eq (Yessotoxins)		-41.44	174.26	Marlborough Sounds	New Zealand	North Island
+Gonyaulax spinifera	no			-38.07	145.07	Port Philip Bay	Australia	Victoria
+Gonyaulax spinifera	no			-42.89	147.34	River Derwent	Australia	Tasmania
+Protoceratium reticulatum	no			-33.85	151.22	Sydney Harbour	Australia	NSW
+Protoceratium reticulatum	ND			-42.89	147.34	River Derwent	Australia	Tasmania
+Protoceratium reticulatum	no			-38.07	145.07	Port Phillip Bay	Australia	Victoria
+Protoceratium reticulatum	no			-41.44	174.26	Marlborough Sounds	New Zealand	North Island
+Azadinium poporum	yes	AZA1 eq (Azaspiracids)		-41.44	174.26	Marlborough Sounds	New Zealand	North Island
+Azadinium spinosum	ND			-36.90	149.92	Merimbula	Australie	NSW
+	yes			-33.74	136.98	Franklin Harbour	Australia	South Australia
+	yes			-34.85	173.26	Rangaunu Harbour	New Zealand	North Island
+Pfiesteria piscicida	no			-42.89	147.34	River Derwent	Australia	Tasmania
+Pfiesteria piscicida	ND			-41.05	173.28	Tasman Bay	New Zealand	North Island
+Alexandrium minutum	yes	STX (Saxitoxins)	PSP	-34.76	138.50	Port River	Australia	South Australia
+Alexandrium minutum	ND			-31.99	115.84	Swan River	Australia	Western Autralia
+Alexandrium minutum	no			-32.91	151.82	NewCastle	Australia	NSW
+Alexandrium minutum	yes	STX (Saxitoxins)		-37.74	177.10	Bay of Plenty	New Zealand	North Island
+Alexandrium minutum	yes	STX (Saxitoxins)		-33.31	115.61	Bunbury	Australia	Western Autralia
+Alexandrium australiense	no			-41.15	146.84	Bell Bay	Australia	Tasmania
+Alexandrium australiense	no			-41.15	139.69	Cape Jaffa	Australia	South Australia
+Alexandrium australiense	yes			-42.89	147.34	River Derwent	Australia	Tasmania
+Alexandrium australiense	no			-41.05	145.90	Emu Bay	Australia	Tasmania
+Alexandrium pacificum	yes	STX (Saxitoxins)		-33.58	151.26	Cowan Creek	Australia	NSW
+Alexandrium pacificum	yes	STX (Saxitoxins)		-33.85	151.22	Sydney Harbour	Australia	NSW
+Alexandrium pacificum	yes	STX (Saxitoxins)		-38.07	145.07	Port Philip Bay	Australia	Victoria
+Alexandrium pacificum	yes	STX (Saxitoxins)		-42.18	148.18	Spring Bay	Australia	Tasmania
+Alexandrium pacificum	no			-32.06	115.73	Fremantle Bay	Australia	Western Australia
+Alexandrium pacificum	yes	STX (Saxitoxins)		-37.74	177.10	Bay of Plenty	New Zealand	North Island
+Alexandrium pacificum	yes	STX (Saxitoxins)		-41.36	174.32	Marlborough Sounds	New Zealand	South Island
+Alexandrium fundyense	yes	STX (Saxitoxins)		-42.67	148.09	Maria Island	Australia	Tasmania
+Alexandrium fundyense	yes	STX (Saxitoxins)		-42.67	148.09	Maria Island	Australia	Tasmania
+Alexandrium ostenfeldii	ND			-42.89	147.34	River Derwent	Australia	Tasmania
+Alexandrium ostenfeldii	ND			-36.90	149.92	Merimbula	Australie	NSW
+Alexandrium ostenfeldii	yes	STX (Saxitoxins)		-38.10	174.72	Taharoa	New Zealand	North Island
+Alexandrium pseudogonyaulax	no			-42.34	147.96	Little Swanport	Australia	Tasmania
+Alexandrium pseudogonyaulax	no			-41.31	148.29	George Bay	Australia	Tasmania
+Alexandrium pseudogonyaulax	no			-36.90	149.92	Merimbula	Australie	NSW
+Alexandrium pseudogonyaulax	no			-36.87	175.08	Tamaki Strait	New Zealand	North Island
+Fukuyoa yasumotoi	yes	MTX3 (Maitotoxins)		-23.44	151.91	Heron Island 	Australia	Queensland
+Fukuyoa	ND			-35.18	174.17	Bay of Islands	New Zealand	North Island
+Gambierdiscus australes	yes	MTX3 (Maitotoxins)		-29.27	-177.93	Raoul Islnd	New Zealand	Kermadec Islands
+Gambierdiscus polynesiensis	yes	MTX3 (Maitotoxins)		-29.27	-177.93	Raoul Islnd	New Zealand	Kermadec Islands
+Gambierdiscus	ND			-36.90	149.92	Merimbula	Australie	NSW
+Ostreopsis siamensis	yes	Palytoxin (Ostreocin (Palytoxin))		-23.44	151.91	Heron Island 	Australia	Queensland
+Ostreopsis siamensis	yes	Palytoxin (Ostreocin (Palytoxin))		-42.34	147.96	Little Swanport	Australia	Tasmania
+Ostreopsis siamensis	ND			-34.72	135.86	Port Lincoln	Australia	South Australia
+Ostreopsis siamensis	yes	Palytoxin (Ostreocin (Palytoxin))		-36.90	149.92	Merimbula	Australia	NSW
+Ostreopsis siamensis	ND			-34.85	173.26	Rangaunu Harbour	New Zealand	North Island
+Coolia	ND			-42.34	147.96	Little Swanport	Australia	Tasmania
+Coolia	ND			-23.44	151.91	Heron Island 	Australia	Queensland
+Coolia	ND			-34.72	172.92	Tasman Sea	New Zealand	North Island
+Coolia tropicalis	ND			-19.20	146.78	Pallarenda	Australia	Queensland
+Prorocentrum cordatum	no			-37.25	149.93	Wonboyn Lake	Australia	NSW
+Prorocentrum cordatum	no			-31.99	115.84	Swan River	Australia	Western Autralia
+Prorocentrum cordatum	no			-33.58	151.26	Cowan Creek	Australia	NSW
+Prorocentrum rhathymum	no			-42.34	147.96	Little Swansport	Australia	Tasmania
+Prorocentrum rhathymum	no			-23.44	151.91	Heron Island 	Australia	Queensland
+Prorocentrum rhathymum	ND			-34.72	135.86	Port Lincoln	Australia	South Australia
+Prorocentrum lima	yes	OA (Okadaic Acid)		-42.34	147.96	Little Swansport	Australia	Tasmania
+Prorocentrum lima	yes	OA (Okadaic Acid)		-23.44	151.91	Heron Island 	Australia	Queensland
+Dinophysis acuminata	yes	DTX3 (Okadaic Acid)		-28.87	153.61	Ballina Beach	Australia	NSW
+Dinophysis acuminata	yes	PTX2 eq (Pectenotoxins)		-32.37	133.92	Smoky Bay	Australia	South Australia
+Dinophysis acuminata	yes	OA (Okadaic Acid)		-42.89	147.34	River Derwent	Australia	Tasmania
+Dinophysis acuminata	ND			-33.58	151.25	Berowra	Australia	NSW
+Dinophysis fortii	yes	OA (Okadaic Acid)		-42.89	147.34	River Derwent	Australia	Tasmania
+Dinophysis fortii	yes	OA (Okadaic Acid)		-34.06	151.13	Port Hacking	Australia	NSW
+Dinophysis mitra	ND			-20.28	118.57	Port Headland	Autralia	Western Autralia
+Dinophysis mitra	ND			-13.25	139.10	Gulf of Carpentaria	Australia	Queensland
+Phalacroma rotundatum	ND			-20.28	118.57	Port Headland	Autralia	Western Autralia
+Phalacroma rotundatum	ND			-13.25	139.10	Gulf of Carpentaria	Australia	Queensland
+Dinophysis miles	ND			-20.28	118.57	Port Headland	Autralia	Western Autralia
+Dinophysis miles	ND			-13.25	139.10	Gulf of Carpentaria	Australia	Queensland
+Dinophysis caudata	yes	OA (Okadaic Acid)		-42.89	147.34	River Derwent	Australia	Tasmania
+Dinophysis caudata	ND			-33.58	151.25	Berowra	Australia	NSW
+Dinophysis tripos	yes	OA (Okadaic Acid)		-42.89	147.34	River Derwent	Australia	Tasmania
+Dinophysis tripos	ND			-34.06	151.13	Port Hacking	Australia	NSW
+Dinophysis ovum	yes	OA (Okadaic Acid)		-42.89	147.34	River Derwent	Australia	Tasmania
+Dinophysis ovum	ND			-34.06	151.13	Port Hacking	Australia	NSW
+Dinophysis ovum	ND			-13.25	139.10	Gulf of Carpentaria	Australia	Queensland
+Pseudo-nitzschia pungens	no			-38.32	144.95	Dromana	Australia	Victoria
+Pseudo-nitzschia pungens	no			-37.25	149.93	Wonboyn Lake	Australia	NSW
+Pseudo-nitzschia pungens	no			-42.89	147.34	River Derwent	Australia	Tasmania
+Pseudo-nitzschia pungens	yes	DA (Domoic Acid)		-41.36	174.32	Marlborough Sounds	New Zealand	South Island
+Pseudo-nitzschia multiseries	no			-33.92	151.26	Coogee beach	Australia	NSW
+Pseudo-nitzschia multiseries	no			-33.58	151.25	Berowra	Australia	NSW
+Pseudo-nitzschia multiseries	yes	DA (Domoic Acid)		-40.65	172.85	Golden Bay	New Zealand	South Island
+Pseudo-nitzschia australis	yes	DA (Domoic Acid)		-42.18	148.18	Spring Bay	Australia	Tasmania
+Pseudo-nitzschia australis	yes	DA (Domoic Acid)		-35.05	173.73	Whangaroa Harbour	New Zealand	North Island
+Pseudo-nitzschia calliantha	no			-33.58	151.25	Berowra	Australie	NSW
+Pseudo-nitzschia calliantha	no			-42.89	147.34	River Derwent	Australia	Tasmania
+Pseudo-nitzschia calliantha	no			-37.25	149.93	Wonboyn Lake	Australia	NSW
+Pseudo-nitzschia calliantha	no			-33.98	151.18	Botany Bay 	Australia	NSW
+Pseudo-nitzschia multistriata	yes	DA (Domoic Acid)		-34.06	151.13	Port Hacking	Australia	NSW
+Pseudo-nitzschia multistriata	yes	DA (Domoic Acid)		-36.60	150.01	Wapengo	Australia	NSW
+Pseudo-nitzschia multistriata	yes	DA (Domoic Acid)		-41.36	174.32	Marlborough Sounds	New Zealand	South Island
+Pseudo-nitzschia multistriata	yes	DA (Domoic Acid)		-37.74	177.1	Bay of Plenty	New Zealand	North Island
+Pseudo-nitzschia cuspidata	yes	DA (Domoic Acid)		-34.06	151.13	Port Hacking	Australia	NSW
+Pseudo-nitzschia cuspidata	yes	DA (Domoic Acid)		-36.22	150.12	Wagonga Inlet	Australia	NSW
+Pseudo-nitzschia cuspidata	yes	DA (Domoic Acid)		-36.90	149.92	Merimbula	Australia	NSW
+Pseudo-nitzschia cuspidata	ND			-33.89	151.28	Bondi Beach	Australia	NSW
+Pseudo-nitzschia cuspidata	no			-41.36	174.32	Marlborough Sounds	New Zealand	South Island
+Prymnesium parvum	yes			-32.56	115.76	Serpentine River 	Australia	Western Autralia
+Prymnesium parvum	yes			-12.48	130.85	Darwin 	Australia	NT
+Prymnesium parvum	ND			-42.97	147.52	Pipeclay Lagoon	Australia	Tasmania
+Prymnesium parvum	ND			-38.98	146.45	Wilsons Promontory	Australia	Tasmania
+Prymnesium polylepis	ND			-42.13	148.30	Honeymoon Bay	Australia	Tasmania
+Chrysochromulina leadbeateri	no			-42.97	147.52	Pipeclay Lagoon	Australia	Tasmania
+Chrysochromulina leadbeateri	no			-34.06	151.13	Port Hacking	Australia	NSW
+Phaeocystis globosa	no			-42.13	148.30	Honeymoon Bay	Australia	Tasmania
+Phaeocystis globosa	no			-34.06	151.13	Port Hacking	Australia	NSW
+Phaeocystis globosa	no			-42.89	147.34	River Derwent	Australia	Tasmania
+Phaeocystis globosa	no			-41.05	173.28	Tasman Bay	New Zealand	North Island
+Heterosigma akashiwo	ND			-41.31	148.29	George Bay	Australia	Tasmania
+Heterosigma akashiwo	ND			-33.58	151.25	Berowra	Australia	NSW
+Heterosigma akashiwo	ND			-34.76	138.50	Port River	Australia	South Australia
+Heterosigma akashiwo	ND			-27.28	153.17	Brisbane (Sea World)	Australia	Queensland
+Heterosigma akashiwo	ND			-46.98	168.12	Big Glory Bay 	New Zealand	South Island
+Heterosigma	no			-33.85	151.22	Sydney Harbour	Australia	NSW
+Heterosigma	yes			-17.12	146.91	Mourilan	Australia	Queensland
+Fibrocapsa japonica	ND			-37.99	147.64	Gippsland Lakes	Australia	Victoria
+Fibrocapsa japonica	ND			-42.89	147.34	River Derwent	Australia	Tasmania
+Fibrocapsa japonica	ND			-37.87	144.87	Hobsons Bay	Australia	Victoria
+Fibrocapsa japonica	no			-36.47	175.12	Hauraki Gulf 	New Zealand	North Island
+Chattonella marina	yes			-34.72	135.86	Port Lincoln	Australia	South Australia
+Chattonella marina	yes			-43.11	147.69	Nubeena	Australia	Tasmania
+Vicicitus globosus	ND			-43.19	147.84	Port Arthur	Australia	Tasmania
+Vicicitus globosus	ND			-34.72	135.86	Port Lincoln	Australia	South Australia
+Vicicitus globosus	ND			-33.85	151.22	Sydney Harbour	Australia	NSW
+Vicicitus globosus	yes			-41.28	174.79	Wellington Harbour	New Zealand	North Island
+Pseudochattonella verruculosa	ND			-42.89	147.34	River Derwent	Australia	Tasmania
+Pseudochattonella verruculosa	ND			-41.36	174.32	Marlborough Sounds	New Zealand	South Island
+Nodularia spumigena	yes	Nodularin (Nodularins)		-35.45	139.09	Lake Alexandrina	Australia	South Australia
+Nodularia spumigena	yes	Nodularin (Nodularins)		-32.02	115.74	Peel-Harvey estuary	Australia	Western Australia
+Nodularia spumigena	yes	Nodularin (Nodularins)		-42.81	147.54	Orielton Lagoon	Australia	Tasmania
+Microcystis aeruginosa	yes	MC-LR eq (Microcystins)		-31.99	115.84	Swan River	Australia	Western Autralia
+Microcystis aeruginosa	yes	MC-LR eq (Microcystins)		-35.12	138.70	Mount Bold Reservoir	Australia	South Australia
+Microcystis aeruginosa	yes	MC-LR eq (Microcystins)		-37.99	147.64	Gippsland Lakes	Australia	Victoria
+Microcystis aeruginosa	yes	MC-LR eq (Microcystins)		-40.10	175.28	Dudding Lake 	New Zealand	North Island
+Anabaena	yes	STX eq (Saxitoxins)		-34.18	140.11	Darling River	Australia	NSW
+Anabaena	yes	STX eq (Saxitoxins)		-35.40	146.35	Uranagong Lake	Australia	NSW
+Anabaena	ND			-41.29	174.75	Lower Karori Reservoir	New Zealand	North Island

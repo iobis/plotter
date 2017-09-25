@@ -1,33 +1,74 @@
 import L from "leaflet"
-let CSV = require("csv-string")
-//let csv = require("csvtojson")
+
+let hashCode = function(str) {
+	var hash = 0
+	for (var i = 0; i < str.length; i++) {
+		hash = str.charCodeAt(i) + ((hash << 5) - hash)
+	}
+	return hash
+}
+
+let intToRGB = function(i){
+	var c = (i & 0x00FFFFFF).toString(16).toUpperCase()
+	return "00000".substring(0, 6 - c.length) + c
+}
+
+let generateColor = function(str) {
+	if (str) {
+		return "#" + intToRGB(hashCode(str))
+	} else {
+		return "#cc3300"
+	}
+}
 
 let map = L.map("map").setView([20, 0], 2)
 L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png", {}).addTo(map)
+let group = new L.featureGroup().addTo(map)
 
 $("#csv").text(data)
 
-let parse = function() {
-	let separator = $("#separator").val()
-	console.log(separator)
-	let input = $("#csv").text()
-
-	//let arr = CSV.parse(input, separator)
-	//console.log(arr)
-
-	window.csvtojson({
-		delimiter: "\t"
-	})
-		.fromString(input)
-		.on("csv", (row) => {
-			console.log(row)
-		})
-		.on("done", () => {
-		})
-
-}
+let color = $("#color")
+color.on("change", function() {
+	window.plot()
+})
 
 window.plot = function() {
-	console.log("plot")
-	parse()
+	group.clearLayers()
+	let delimiter = $("#delimiter").val()
+	let selectedField = color.val()
+	if (delimiter == "tab") {
+		delimiter = "	"
+	}
+	let input = $("#csv").val()
+	let fields = null
+
+	window.csvtojson({ delimiter: delimiter }).fromString(input)
+		.on("json", (row) => {
+			if (!fields) {
+				fields = Object.keys(row)
+			}
+			let marker = new L.CircleMarker([row.decimalLatitude, row.decimalLongitude], {
+				radius: 4,
+				fillOpacity: 1,
+				opacity: 1,
+				color: "white",
+				fillColor: generateColor(row[selectedField]),
+				weight: 2,
+				clickable: true
+			})
+			if (selectedField) {
+				marker.bindPopup(row[selectedField])
+			}
+			marker.addTo(group)
+		})
+		.on("done", () => {
+			color.find("option").remove().end().append('<option>Select field</option>').val(null)
+			fields.forEach(field => {
+				color.append('<option value="' + field + '">' + field + '</option>');
+			})
+			if (fields.indexOf(selectedField) > -1) {
+				color.val(selectedField)
+			}
+			map.fitBounds(group.getBounds())
+		})
 }
