@@ -1,28 +1,31 @@
 html, body {
+	margin: 0px;
+	padding: 0px;
 	height: 100%;
-	margin: 0;
+	width: 100%;
+}
+
+.sidebar {
+  overflow-y: auto;
+  position: fixed;
+  top: 0px;
+  width: 400px;
+  height: 100%;
+  padding-top: 20px;
+}
+
+#map {
+  width: calc(100% - 400px);
+  float: right;
+  height: 100%;
+}
+
+#wrapper {
+	display: block;
+	height: 100%;
+	width: 100%;
 }
 
 textarea {
 	resize: none;
-}
-
-leaflet {
-	margin-left: 30%;
-	display: block;
-	min-height: 100%;
-}
-
-[ng\:cloak], [ng-cloak], .ng-cloak {
-	display: none !important;
-}
-
-#wrapper {
-	margin: 0px;
-	padding: 0px;
-	position: absolute;
-	top: 0px;
-	background-color: "#ffffff";
-	width: 30%;
-	padding: 10px;
 }

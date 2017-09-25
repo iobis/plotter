@@ -1,71 +1,47 @@
 <!doctype html>
-<html ng-app="app">
+<html>
 <head>
 <meta charset="UTF-8">
-
-<link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
-<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-<link rel="stylesheet" href="style.css" />
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css">
 </head>
-<body ng-controller="mapcontroller">
+<body>
 
-<leaflet id="map" map="map"></leaflet>
-
-<div id="wrapper" class="container" ng-cloak>
-	<div class="row">
-		<div class="col-md-12">
-
-			<div class="form-group">
-				<label>source data</label>
-				<textarea wrap="off" class="form-control" rows="10" id="occurrences" ng-model="csv"></textarea>
-			</div>
-
-			<div class="form-group">
-				<button type="button" id="plotbutton" class="btn btn-default" ng-click="plot()">Plot</button>&nbsp;
-				<button type="button" id="clearbutton" class="btn btn-default" ng-click="clear()">Clear</button>
-			</div>
-
-			<div class="form-group">
-				<label>longitude field</label>
-
-				<input type="text" class="form-control" ng-model="lonField" uib-typeahead="field for field in fields | filter:$viewValue | limitTo:8">
-
-			</div>
-
-			<div class="form-group">
-				<label>latitude field</label>
-				<input class="form-control" ng-model="latField"></input>
-			</div>
-
-			<div class="form-group">
-				<label>ID field</label>
-				<input class="form-control" ng-model="idField"></input>
-			</div>
-
-			<div class="form-group">
-				<label>color field</label>
-				<input class="form-control" ng-model="colorField"></input>
-			</div>
-
-			<div class="form-group">
-				<label>separator</label>
-				<input class="form-control" ng-model="sep"></input>
-			</div>
-
-		</div>
-	</div>
+<div id="wrapper">
+    <div class="sidebar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Source data</label>
+                        <textarea wrap="off" class="form-control" rows="7" id="csv"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Separator</label>
+                        <select class="form-control" id="separator">
+                            <option value=" ">tab</option>
+                            <option value=",">,</option>
+                            <option value=";">;</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" id="plotbutton" class="btn btn-default" onclick="plot()">Plot</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="map">
+    </div>
 </div>
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/angular/angular.min.js"></script>
-<script src="bower_components/leaflet/dist/leaflet.js"></script>
-<script src="bower_components/leafcutter/leafcutter.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="ui-bootstrap-custom-0.14.3.min.js"></script>
-<script src="ui-bootstrap-custom-tpls-0.14.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="data.js"></script>
-<script src="script.js"></script>
+<script src="csvtojson.min.js"></script>
+<script src="bundle.js"></script>
 
 </body>
 </html>
